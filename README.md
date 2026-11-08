@@ -1,6 +1,6 @@
 # leetcode-stack
 
-[हिंदी में पढ़ें](https://github.com/R-Jena/leetcode-stack/blob/main/README.md)
+[हिंदी में पढ़ें](https://github.com/R-Jena/leetcode-stack/blob/main/README.hi.md)
 
 ---
 > **A zero-to-one algorithmic infrastructure, independently architected for state-space optimization, advanced data structure engineering, and computational efficiency.**
