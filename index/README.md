@@ -34,6 +34,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Find Target Indices After Sorting Array | `O(N) - Single linear pass bypassing standard sorting overhead` | `O(1) - Zero extra allocation besides the required return slice` | [target_indices_after_sorting.go](../Arrays/target_indices_after_sorting.go) |
 
+## Arrays / Matrix / Counting
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Count Servers that Communicate | `O(M * N) -> Two ultra-fast linear passes through the grid.` | `O(M + N) -> Two flat 1D frequency arrays. Absolute zero dynamic allocations inside the loop.` | [count_servers_that_communicate.go](../Matrices/count_servers_that_communicate.go) |
+
 ## Backtracking
 
 | Problem | Time Complexity | Space Complexity | File |
@@ -365,6 +371,12 @@ Automated problem index categorized by algorithmic taxonomy.
 | Problem | Time Complexity | Space Complexity | File |
 |---|---|---|---|
 | Find X-Values of Subarrays Modulo K (Range Queries) | `O(N + Q \log N)` | `O(N * K)` | [x_values_modulo_k_queries.cpp](../Segment_Tree/x_values_modulo_k_queries.cpp) |
+
+## Segment Tree / Priority Queue
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Find Servers That Handled Most Number of Requests | `O(N log K) -> Custom slice-based Min-Heap for busy servers and Segment Tree for O(log K) next-available server queries.` | `O(K) -> Strictly pre-allocated arrays. Zero runtime GC spikes.` | [find_servers_that_handled_most_no_of_requests.go](../Segment_Tree/find_servers_that_handled_most_no_of_requests.go) |
 
 ## Segment_Tree
 

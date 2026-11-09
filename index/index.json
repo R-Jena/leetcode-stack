@@ -301,6 +301,13 @@
     "file": "Segment_Tree/x_values_modulo_k_queries.cpp"
   },
   {
+    "problem_name": "Find Servers That Handled Most Number of Requests",
+    "category": "Segment Tree / Priority Queue",
+    "time_complexity": "O(N log K) -> Custom slice-based Min-Heap for busy servers and Segment Tree for O(log K) next-available server queries.",
+    "space_complexity": "O(K) -> Strictly pre-allocated arrays. Zero runtime GC spikes.",
+    "file": "Segment_Tree/find_servers_that_handled_most_no_of_requests.go"
+  },
+  {
     "problem_name": "Stone Game V",
     "category": "Game_Theory",
     "time_complexity": "O(N)",
@@ -754,6 +761,13 @@
     "time_complexity": "O(m * n) -> Zero string concatenations. Direct memory assignment and fast I/O detachment.",
     "space_complexity": "O(1) auxiliary -> Single obstacle template copied directly. Overwrites memory block in-place.",
     "file": "Matrices/create_grid_exactly_one_path.cpp"
+  },
+  {
+    "problem_name": "Count Servers that Communicate",
+    "category": "Arrays / Matrix / Counting",
+    "time_complexity": "O(M * N) -> Two ultra-fast linear passes through the grid.",
+    "space_complexity": "O(M + N) -> Two flat 1D frequency arrays. Absolute zero dynamic allocations inside the loop.",
+    "file": "Matrices/count_servers_that_communicate.go"
   },
   {
     "problem_name": "Spiral Matrix Ii",
