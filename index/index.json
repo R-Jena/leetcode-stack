@@ -553,6 +553,13 @@
     "file": "Dynamic_Programming/find_x_values_modulo_k.cpp"
   },
   {
+    "problem_name": "Climbing Stairs II",
+    "category": "Dynamic Programming / State Machine",
+    "time_complexity": "O(N) -> Single linear scan calculating 3 transitions per step.",
+    "space_complexity": "O(1) -> Only 3 integer registers used. Absolute zero heap/slice allocations.",
+    "file": "Dynamic_Programming/climbing_stairs_ii.go"
+  },
+  {
     "problem_name": "Regular Expressions Matching",
     "category": "Dynamic_Programming",
     "time_complexity": "O(N^2)",

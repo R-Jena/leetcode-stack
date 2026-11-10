@@ -138,6 +138,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Sum of Squares of Distinct Counts | `O(N^2)` | `O(N) - Strictly bounded state arrays` | [sum_squares_distinct_counts.py](../Dynamic_Programming/sum_squares_distinct_counts.py) |
 
+## Dynamic Programming / State Machine
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Climbing Stairs II | `O(N) -> Single linear scan calculating 3 transitions per step.` | `O(1) -> Only 3 integer registers used. Absolute zero heap/slice allocations.` | [climbing_stairs_ii.go](../Dynamic_Programming/climbing_stairs_ii.go) |
+
 ## Dynamic_Programming
 
 | Problem | Time Complexity | Space Complexity | File |
