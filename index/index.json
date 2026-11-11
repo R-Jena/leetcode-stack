@@ -154,6 +154,13 @@
     "file": "Math/three_digit_even_count.py"
   },
   {
+    "problem_name": "Minimum Total Cost of Items",
+    "category": "Math / Greedy Optimization",
+    "time_complexity": "O(1) -> Absolute bare-metal mathematical calculation. Zero loops.",
+    "space_complexity": "O(1) -> Zero heap allocations, purely 64-bit CPU registers.",
+    "file": "Math/minimum_cost_to_acquire_required_items.go"
+  },
+  {
     "problem_name": "Smallest Index With Equal Sum",
     "category": "Math",
     "time_complexity": "O(1)",

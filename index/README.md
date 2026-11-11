@@ -319,6 +319,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Number of Ways to Reorder Array to Get Same BST | `O(N) - Bare-metal linear pass` | `O(N) - 1D State Tracking Arrays` | [ways_to_reorder_bst.py](../Math/ways_to_reorder_bst.py) |
 
+## Math / Greedy Optimization
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum Total Cost of Items | `O(1) -> Absolute bare-metal mathematical calculation. Zero loops.` | `O(1) -> Zero heap allocations, purely 64-bit CPU registers.` | [minimum_cost_to_acquire_required_items.go](../Math/minimum_cost_to_acquire_required_items.go) |
+
 ## Math / Greedy String Construction
 
 | Problem | Time Complexity | Space Complexity | File |
