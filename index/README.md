@@ -40,6 +40,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Count Servers that Communicate | `O(M * N) -> Two ultra-fast linear passes through the grid.` | `O(M + N) -> Two flat 1D frequency arrays. Absolute zero dynamic allocations inside the loop.` | [count_servers_that_communicate.go](../Matrices/count_servers_that_communicate.go) |
 
+## Arrays / State Machine
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Longest Strictly Increasing or Strictly Decreasing Subarray | `O(N) -> Single bare-metal linear scan.` | `O(1) -> Only 3 CPU registers used (maxLen, inc, dec). Absolute zero allocations.` | [longest_strictly_increasing_or_decreasing_subarray.go](../Arrays/longest_strictly_increasing_or_decreasing_subarray.go) |
+
 ## Backtracking
 
 | Problem | Time Complexity | Space Complexity | File |

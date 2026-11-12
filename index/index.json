@@ -364,6 +364,13 @@
     "file": "Arrays/largest_almost_missing_integer.py"
   },
   {
+    "problem_name": "Longest Strictly Increasing or Strictly Decreasing Subarray",
+    "category": "Arrays / State Machine",
+    "time_complexity": "O(N) -> Single bare-metal linear scan.",
+    "space_complexity": "O(1) -> Only 3 CPU registers used (maxLen, inc, dec). Absolute zero allocations.",
+    "file": "Arrays/longest_strictly_increasing_or_decreasing_subarray.go"
+  },
+  {
     "problem_name": "Sum of Squares of Special Elements",
     "category": "Math / Arrays",
     "time_complexity": "O(N)",
