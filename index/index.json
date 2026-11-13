@@ -1057,6 +1057,13 @@
     "file": "Sliding_Window/min_operations_reduce_x_to_zero.py"
   },
   {
+    "problem_name": "Number of Subarrays That Can Be Made Non-Decreasing",
+    "category": "Sliding Window / Monotonic Deque",
+    "time_complexity": "O(N) -> Pure linear scan. Each element pushed/popped at most once.",
+    "space_complexity": "O(N) -> Single pre-allocated slice acting as a ring-free Deque. Absolute zero runtime allocations.",
+    "file": "Sliding_Window/count_non_decreasing_subarrays.go"
+  },
+  {
     "problem_name": "Longest Subarray K Freq",
     "category": "Sliding_Window",
     "time_complexity": "O(N)",

@@ -409,6 +409,12 @@ Automated problem index categorized by algorithmic taxonomy.
 | Find Two Non-overlapping Sub-arrays Each With Target Sum | `O(N)` | `O(N)` | [min_sum_of_lengths.cpp](../Sliding_Window/min_sum_of_lengths.cpp) |
 | Minimum Operations to Reduce X to Zero | `O(N)` | `O(1)` | [min_operations_reduce_x_to_zero.py](../Sliding_Window/min_operations_reduce_x_to_zero.py) |
 
+## Sliding Window / Monotonic Deque
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Number of Subarrays That Can Be Made Non-Decreasing | `O(N) -> Pure linear scan. Each element pushed/popped at most once.` | `O(N) -> Single pre-allocated slice acting as a ring-free Deque. Absolute zero runtime allocations.` | [count_non_decreasing_subarrays.go](../Sliding_Window/count_non_decreasing_subarrays.go) |
+
 ## Sliding_Window
 
 | Problem | Time Complexity | Space Complexity | File |
