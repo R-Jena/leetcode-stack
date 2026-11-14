@@ -371,6 +371,13 @@
     "file": "Arrays/longest_strictly_increasing_or_decreasing_subarray.go"
   },
   {
+    "problem_name": "Minimum Positive Sum Subarray",
+    "category": "Arrays / Micro-Optimized Prefix Sum",
+    "time_complexity": "O(N^2) -> Strictly bounded nested loops. Zero wasted iterations.",
+    "space_complexity": "O(1) -> 105-element array allocated entirely on the CPU stack (zero GC heap allocation).",
+    "file": "Arrays/minimum_positive_sum_subarray.go"
+  },
+  {
     "problem_name": "Sum of Squares of Special Elements",
     "category": "Math / Arrays",
     "time_complexity": "O(N)",

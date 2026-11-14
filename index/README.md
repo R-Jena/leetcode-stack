@@ -40,6 +40,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Count Servers that Communicate | `O(M * N) -> Two ultra-fast linear passes through the grid.` | `O(M + N) -> Two flat 1D frequency arrays. Absolute zero dynamic allocations inside the loop.` | [count_servers_that_communicate.go](../Matrices/count_servers_that_communicate.go) |
 
+## Arrays / Micro-Optimized Prefix Sum
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum Positive Sum Subarray | `O(N^2) -> Strictly bounded nested loops. Zero wasted iterations.` | `O(1) -> 105-element array allocated entirely on the CPU stack (zero GC heap allocation).` | [minimum_positive_sum_subarray.go](../Arrays/minimum_positive_sum_subarray.go) |
+
 ## Arrays / State Machine
 
 | Problem | Time Complexity | Space Complexity | File |
