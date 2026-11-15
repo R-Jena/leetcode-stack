@@ -376,6 +376,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Create Grid With Exactly One Path | `O(m * n) -> Zero string concatenations. Direct memory assignment and fast I/O detachment.` | `O(1) auxiliary -> Single obstacle template copied directly. Overwrites memory block in-place.` | [create_grid_exactly_one_path.cpp](../Matrices/create_grid_exactly_one_path.cpp) |
 
+## Prefix Sum / Bit Manipulation
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Number of Subarrays With Odd Sum | `O(N) -> Pure linear scan, bitwise parity tracking.` | `O(1) -> Only 4 CPU registers. Absolute zero allocations.` | [number_of_subarrays_with_odd_sum.go](../Prefix_Sum/number_of_subarrays_with_odd_sum.go) |
+
 ## Prefix_Sum
 
 | Problem | Time Complexity | Space Complexity | File |

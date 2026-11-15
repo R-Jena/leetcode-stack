@@ -539,6 +539,13 @@
     "file": "Prefix_Sum/smallest_stable_index.go"
   },
   {
+    "problem_name": "Number of Subarrays With Odd Sum",
+    "category": "Prefix Sum / Bit Manipulation",
+    "time_complexity": "O(N) -> Pure linear scan, bitwise parity tracking.",
+    "space_complexity": "O(1) -> Only 4 CPU registers. Absolute zero allocations.",
+    "file": "Prefix_Sum/number_of_subarrays_with_odd_sum.go"
+  },
+  {
     "problem_name": "Minimum XOR Path in a Grid",
     "category": "Dynamic Programming / Bit Manipulation",
     "time_complexity": "O(m * n * min(1024, path_length)) -> Highly optimized state evaluation using Python's native Hash Sets.",
