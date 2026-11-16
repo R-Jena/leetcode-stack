@@ -931,6 +931,13 @@
     "file": "Strings/max_nesting_depth_two_vps.cpp"
   },
   {
+    "problem_name": "Calculate Digit Sum of a String",
+    "category": "Strings / Byte Manipulation",
+    "time_complexity": "O(N log N) -> At each round, the string size shrinks. Max rounds is logarithmic.",
+    "space_complexity": "O(N) -> Reusing a single byte slice buffer for the next round. Minimal GC overhead.",
+    "file": "Strings/digit_sum_of_string.go"
+  },
+  {
     "problem_name": "Evaluate the Bracket Pairs of a String",
     "category": "String Manipulation / Hash Map",
     "time_complexity": "O(N + K)",

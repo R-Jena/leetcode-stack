@@ -483,6 +483,12 @@ Automated problem index categorized by algorithmic taxonomy.
 | Wildcard Matching | `O(N)` | `O(1)` | [wildcard_matching.cpp](../Strings/wildcard_matching.cpp) |
 | Zigzag Conversion | `O(N)` | `O(1)` | [zigzag_conversion.cpp](../Strings/zigzag_conversion.cpp) |
 
+## Strings / Byte Manipulation
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Calculate Digit Sum of a String | `O(N log N) -> At each round, the string size shrinks. Max rounds is logarithmic.` | `O(N) -> Reusing a single byte slice buffer for the next round. Minimal GC overhead.` | [digit_sum_of_string.go](../Strings/digit_sum_of_string.go) |
+
 ## Strings / Greedy
 
 | Problem | Time Complexity | Space Complexity | File |
