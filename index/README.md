@@ -156,6 +156,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Climbing Stairs II | `O(N) -> Single linear scan calculating 3 transitions per step.` | `O(1) -> Only 3 integer registers used. Absolute zero heap/slice allocations.` | [climbing_stairs_ii.go](../Dynamic_Programming/climbing_stairs_ii.go) |
 
+## Dynamic Programming / Substring Partitioning
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum Changes to Make K Semi-palindromes | `O(N^3) -> O(N log N) divisor sieve + O(N^3) palindrome match + O(N^2 * K) partition DP.` | `O(N^2) -> Heap allocation for DP matrices (acceptable for dynamic scaling).` | [min_changes_to_make_k_semi_palindromes.go](../Dynamic_Programming/min_changes_to_make_k_semi_palindromes.go) |
+
 ## Dynamic_Programming
 
 | Problem | Time Complexity | Space Complexity | File |
