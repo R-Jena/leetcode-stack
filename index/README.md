@@ -501,6 +501,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Minimum Operations to Make String Sorted | `O(N) -> Pure linear scans using STL is_sorted and bare-metal loops.` | `O(1) -> Strict constant space, purely tracking min/max chars and state flags.` | [minimum_operations_to_sort_string.cpp](../Strings/minimum_operations_to_sort_string.cpp) |
 
+## Strings / Greedy Optimization
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum Number of Changes to Make Binary String Beautiful | `O(N) -> Pure linear scan jumping 2 bytes at a time.` | `O(1) -> Absolute zero heap allocations, pure CPU register logic.` | [min_changes_to_make_binary_string_beautiful.go](../Strings/min_changes_to_make_binary_string_beautiful.go) |
+
 ## Strings / State Machine
 
 | Problem | Time Complexity | Space Complexity | File |
