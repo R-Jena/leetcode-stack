@@ -236,6 +236,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Minimum Sum of Squared Difference | `O(N + max_diff)` | `O(max_diff) - Zero Heap Allocation` | [min_sum_squared_diff.py](../Greedy/min_sum_squared_diff.py) |
 
+## Greedy / Single-Pass Extremes
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Minimum Score by Changing Two Elements | `O(N) -> Bypasses O(N log N) sorting by tracking top-3 and bottom-3 in one linear scan.` | `O(1) -> Strictly 6 integer registers. Absolute zero heap allocations.` | [minimum_score_by_changing_two_elements.go](../Greedy/minimum_score_by_changing_two_elements.go) |
+
 ## Greedy / State Space
 
 | Problem | Time Complexity | Space Complexity | File |

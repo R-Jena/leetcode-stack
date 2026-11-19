@@ -469,6 +469,13 @@
     "file": "Greedy/lex_greater_permutation.py"
   },
   {
+    "problem_name": "Minimum Score by Changing Two Elements",
+    "category": "Greedy / Single-Pass Extremes",
+    "time_complexity": "O(N) -> Bypasses O(N log N) sorting by tracking top-3 and bottom-3 in one linear scan.",
+    "space_complexity": "O(1) -> Strictly 6 integer registers. Absolute zero heap allocations.",
+    "file": "Greedy/minimum_score_by_changing_two_elements.go"
+  },
+  {
     "problem_name": "Minimum Sum of Squared Difference",
     "category": "Greedy / Bucket Sort",
     "time_complexity": "O(N + max_diff)",
