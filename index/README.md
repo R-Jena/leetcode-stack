@@ -150,6 +150,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Sum of Squares of Distinct Counts | `O(N^2)` | `O(N) - Strictly bounded state arrays` | [sum_squares_distinct_counts.py](../Dynamic_Programming/sum_squares_distinct_counts.py) |
 
+## Dynamic Programming / Rolling State Machine
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Maximize Consecutive Elements in an Array After Modification | `O(N log N) -> Zero-boxing slices.Sort + single linear state-machine pass.` | `O(1) -> Pure 3-register rolling window (a, b, c). Absolute zero heap allocations.` | [maximize_consecutive_elements_in_an_array_after_modification.go](../Dynamic_Programming/maximize_consecutive_elements_in_an_array_after_modification.go) |
+
 ## Dynamic Programming / State Machine
 
 | Problem | Time Complexity | Space Complexity | File |

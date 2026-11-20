@@ -581,6 +581,13 @@
     "file": "Dynamic_Programming/sum_squares_distinct_counts.py"
   },
   {
+    "problem_name": "Maximize Consecutive Elements in an Array After Modification",
+    "category": "Dynamic Programming / Rolling State Machine",
+    "time_complexity": "O(N log N) -> Zero-boxing slices.Sort + single linear state-machine pass.",
+    "space_complexity": "O(1) -> Pure 3-register rolling window (a, b, c). Absolute zero heap allocations.",
+    "file": "Dynamic_Programming/maximize_consecutive_elements_in_an_array_after_modification.go"
+  },
+  {
     "problem_name": "Find X-Values of Subarrays Modulo K",
     "category": "Dynamic Programming",
     "time_complexity": "O(N * K)",
