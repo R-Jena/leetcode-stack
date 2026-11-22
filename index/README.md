@@ -519,6 +519,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Minimum Number of Changes to Make Binary String Beautiful | `O(N) -> Pure linear scan jumping 2 bytes at a time.` | `O(1) -> Absolute zero heap allocations, pure CPU register logic.` | [min_changes_to_make_binary_string_beautiful.go](../Strings/min_changes_to_make_binary_string_beautiful.go) |
 
+## Strings / Single-Pass Scan
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Check if All A's Appears Before All B's | `O(N) -> Single linear pass with immediate early exit on 'ba' transition.` | `O(1) -> Pure CPU register loop. Absolute zero heap allocations.` | [check_if_all_as_appears_before_all_bs.cpp](../Strings/check_if_all_as_appears_before_all_bs.cpp) |
+
 ## Strings / State Machine
 
 | Problem | Time Complexity | Space Complexity | File |

@@ -1008,6 +1008,13 @@
     "file": "Strings/digit_sum_of_string.go"
   },
   {
+    "problem_name": "Check if All A's Appears Before All B's",
+    "category": "Strings / Single-Pass Scan",
+    "time_complexity": "O(N) -> Single linear pass with immediate early exit on 'ba' transition.",
+    "space_complexity": "O(1) -> Pure CPU register loop. Absolute zero heap allocations.",
+    "file": "Strings/check_if_all_as_appears_before_all_bs.cpp"
+  },
+  {
     "problem_name": "Minimum Number of Changes to Make Binary String Beautiful",
     "category": "Strings / Greedy Optimization",
     "time_complexity": "O(N) -> Pure linear scan jumping 2 bytes at a time.",
