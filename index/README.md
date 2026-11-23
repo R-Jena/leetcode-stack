@@ -400,6 +400,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Number of Subarrays With Odd Sum | `O(N) -> Pure linear scan, bitwise parity tracking.` | `O(1) -> Only 4 CPU registers. Absolute zero allocations.` | [number_of_subarrays_with_odd_sum.go](../Prefix_Sum/number_of_subarrays_with_odd_sum.go) |
 
+## Prefix Sum / Multiplicative Prefix Array
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Product of the Last K Numbers | `O(1) -> Amortized constant time for add() and strict O(1) for getProduct().` | `O(N) -> Stores cumulative non-zero prefix products since the last zero.` | [product_of_the_last_k_numbers.cpp](../Prefix_Sum/product_of_the_last_k_numbers.cpp) |
+
 ## Prefix_Sum
 
 | Problem | Time Complexity | Space Complexity | File |

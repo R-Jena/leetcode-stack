@@ -952,6 +952,13 @@
     "file": "Prefix_Sum/first_stable_index.go"
   },
   {
+    "problem_name": "Product of the Last K Numbers",
+    "category": "Prefix Sum / Multiplicative Prefix Array",
+    "time_complexity": "O(1) -> Amortized constant time for add() and strict O(1) for getProduct().",
+    "space_complexity": "O(N) -> Stores cumulative non-zero prefix products since the last zero.",
+    "file": "Prefix_Sum/product_of_the_last_k_numbers.cpp"
+  },
+  {
     "problem_name": "Evaluate the Bracket Pairs of a String",
     "category": "String Manipulation / Hash Map",
     "time_complexity": "O(N + K)",
