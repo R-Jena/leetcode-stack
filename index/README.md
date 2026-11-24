@@ -135,8 +135,8 @@ Automated problem index categorized by algorithmic taxonomy.
 
 | Problem | Time Complexity | Space Complexity | File |
 |---|---|---|---|
-| Minimum XOR Path in a Grid | `O(m * n * min(1024, path_length)) -> Highly optimized state evaluation using Python's native Hash Sets.` | `O(n * 1024) -> Strictly 1D array of sets. Automatically garbage collected and dynamically sized.` | [min_path_xor_cost.py](../Dynamic_Programming/min_path_xor_cost.py) |
 | Minimum XOR Path in a Grid | `O(m * n * 1024) -> Fully unrolled contiguous memory traversal evaluating all state sets natively.` | `O(n * 1024) -> Strictly stack-allocated C-style arrays. Zero heap allocations. L1/L2 cache optimized.` | [palindrome_path_queries_in_a_tree.go](../Trees/palindrome_path_queries_in_a_tree.go) |
+| Minimum XOR Path in a Grid | `O(m * n * min(1024, path_length)) -> Highly optimized state evaluation using Python's native Hash Sets.` | `O(n * 1024) -> Strictly 1D array of sets. Automatically garbage collected and dynamically sized.` | [min_path_xor_cost.py](../Dynamic_Programming/min_path_xor_cost.py) |
 
 ## Dynamic Programming / Branchless Bit Manipulation
 
@@ -444,6 +444,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Find Two Non-overlapping Sub-arrays Each With Target Sum | `O(N)` | `O(N)` | [min_sum_of_lengths.cpp](../Sliding_Window/min_sum_of_lengths.cpp) |
 | Minimum Operations to Reduce X to Zero | `O(N)` | `O(1)` | [min_operations_reduce_x_to_zero.py](../Sliding_Window/min_operations_reduce_x_to_zero.py) |
+
+## Sliding Window / Bit Manipulation & Number Theory
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Maximum Subarray With Equal Products | `O(N) -> Single sliding window pass using 4-bit prime factor masks. Zero GCD/LCM calls.` | `O(1) -> Constant 11-byte lookup table and integer registers. Zero heap allocations.` | [maximum_subarray_with_equal_products.cpp](../Sliding_Window/maximum_subarray_with_equal_products.cpp) |
 
 ## Sliding Window / Monotonic Deque
 
