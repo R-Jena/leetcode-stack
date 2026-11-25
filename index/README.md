@@ -66,6 +66,12 @@ Automated problem index categorized by algorithmic taxonomy.
 | Permutations Ii | `O(2^N)` | `O(N)` | [permutations_ii.go](../Backtracking/permutations_ii.go) |
 | Sudoku Solver | `O(2^N)` | `O(N)` | [sudoku_solver.py](../Backtracking/sudoku_solver.py) |
 
+## Binary Search / Double Rolling Hash
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Smallest Unique Subarray | `O(N log^2 N) -> Precomputed O(N) prefix hashes + Binary Search with flat uint64_t sort.` | `O(N) -> Pre-allocated flat arrays and single reused hash buffer. Zero unordered_map overhead.` | [smallest_unique_subarray.cpp](../Binary_Search/smallest_unique_subarray.cpp) |
+
 ## Binary_Search
 
 | Problem | Time Complexity | Space Complexity | File |
@@ -135,8 +141,8 @@ Automated problem index categorized by algorithmic taxonomy.
 
 | Problem | Time Complexity | Space Complexity | File |
 |---|---|---|---|
-| Minimum XOR Path in a Grid | `O(m * n * 1024) -> Fully unrolled contiguous memory traversal evaluating all state sets natively.` | `O(n * 1024) -> Strictly stack-allocated C-style arrays. Zero heap allocations. L1/L2 cache optimized.` | [palindrome_path_queries_in_a_tree.go](../Trees/palindrome_path_queries_in_a_tree.go) |
 | Minimum XOR Path in a Grid | `O(m * n * min(1024, path_length)) -> Highly optimized state evaluation using Python's native Hash Sets.` | `O(n * 1024) -> Strictly 1D array of sets. Automatically garbage collected and dynamically sized.` | [min_path_xor_cost.py](../Dynamic_Programming/min_path_xor_cost.py) |
+| Minimum XOR Path in a Grid | `O(m * n * 1024) -> Fully unrolled contiguous memory traversal evaluating all state sets natively.` | `O(n * 1024) -> Strictly stack-allocated C-style arrays. Zero heap allocations. L1/L2 cache optimized.` | [palindrome_path_queries_in_a_tree.go](../Trees/palindrome_path_queries_in_a_tree.go) |
 
 ## Dynamic Programming / Branchless Bit Manipulation
 
