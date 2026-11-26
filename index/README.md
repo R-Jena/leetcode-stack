@@ -355,6 +355,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Number of Ways to Reorder Array to Get Same BST | `O(N) - Bare-metal linear pass` | `O(N) - 1D State Tracking Arrays` | [ways_to_reorder_bst.py](../Math/ways_to_reorder_bst.py) |
 
+## Math / Game Theory Simulation
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Stone Removal Game | `O(1) -> Bounded to at most 7 iterations since 1 <= n <= 50.` | `O(1) -> Strictly 2 CPU registers (take, aliceTurn). Zero heap allocations.` | [stone_removal_game.cpp](../Math/stone_removal_game.cpp) |
+
 ## Math / Greedy Optimization
 
 | Problem | Time Complexity | Space Complexity | File |

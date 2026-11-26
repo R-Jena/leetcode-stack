@@ -644,6 +644,13 @@
     "file": "Math/circle_and_rectangle_overlapping.cpp"
   },
   {
+    "problem_name": "Stone Removal Game",
+    "category": "Math / Game Theory Simulation",
+    "time_complexity": "O(1) -> Bounded to at most 7 iterations since 1 <= n <= 50.",
+    "space_complexity": "O(1) -> Strictly 2 CPU registers (take, aliceTurn). Zero heap allocations.",
+    "file": "Math/stone_removal_game.cpp"
+  },
+  {
     "problem_name": "Number of Sets of K Non-Overlapping Line Segments",
     "category": "Math",
     "time_complexity": "O(K)",
