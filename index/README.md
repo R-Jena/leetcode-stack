@@ -137,6 +137,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Find X-Values of Subarrays Modulo K | `O(N * K)` | `O(K)` | [find_x_values_modulo_k.cpp](../Dynamic_Programming/find_x_values_modulo_k.cpp) |
 
+## Dynamic Programming / 0-1 Knapsack & Harmonic Sieve
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Maximum Item Copies With Free Bonuses | `O(M log M + N * B) -> Harmonic sieve for divisor counts + bounded 0/1 knapsack.` | `O(M + B) -> Strictly stack-allocated fixed arrays ([1501]int). Zero heap allocations.` | [maximum_item_copies_with_free_bonuses.go](../Dynamic_Programming/maximum_item_copies_with_free_bonuses.go) |
+
 ## Dynamic Programming / Bit Manipulation
 
 | Problem | Time Complexity | Space Complexity | File |

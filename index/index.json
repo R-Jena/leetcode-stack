@@ -63,6 +63,13 @@
     "file": "Binary_Search/smallest_unique_subarray.cpp"
   },
   {
+    "problem_name": "Maximum Item Copies With Free Bonuses",
+    "category": "Dynamic Programming / 0-1 Knapsack & Harmonic Sieve",
+    "time_complexity": "O(M log M + N * B) -> Harmonic sieve for divisor counts + bounded 0/1 knapsack.",
+    "space_complexity": "O(M + B) -> Strictly stack-allocated fixed arrays ([1501]int). Zero heap allocations.",
+    "file": "Dynamic_Programming/maximum_item_copies_with_free_bonuses.go"
+  },
+  {
     "problem_name": "Maximum Subarray",
     "category": "Dynamic_Programming",
     "time_complexity": "O(N^2)",
