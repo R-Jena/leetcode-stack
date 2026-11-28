@@ -254,6 +254,12 @@ Automated problem index categorized by algorithmic taxonomy.
 |---|---|---|---|
 | Minimum Sum of Squared Difference | `O(N + max_diff)` | `O(max_diff) - Zero Heap Allocation` | [min_sum_squared_diff.py](../Greedy/min_sum_squared_diff.py) |
 
+## Greedy / Ordered Map & Multiple Counting
+
+| Problem | Time Complexity | Space Complexity | File |
+|---|---|---|---|
+| Maximum Number of Items From Sale II | `O(N log N) -> Multiple counting bounded by maxFact + ordered map aggregation by price.` | `O(N) -> Frequency array sized to maxFact and ordered map for valid bonus deals.` | [maximum_number_of_items_from_sale_ii.cpp](../Greedy/maximum_number_of_items_from_sale_ii.cpp) |
+
 ## Greedy / Single-Pass Extremes
 
 | Problem | Time Complexity | Space Complexity | File |
